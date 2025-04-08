@@ -1,0 +1,49 @@
+/*combinators*/
+
+/*descendant combinator*/
+/*div p{---} applies the style to direct&indirect sons of div*/
+div{background-color: rgb(179, 255, 164);  
+}
+
+div p{color: black;
+    font-size: medium;
+}
+
+/*child combinator*/
+/*applies to direct children*/
+div > p{
+    background-color: purple;
+}
+
+/*nex sibling*/
+/*applies to adjacent paragraphs of div*/
+div + p{
+    background-color: teal;
+    color: blanchedalmond;
+    padding:95px;
+}
+
+/*subsequent sibling combinator*/
+/*applies to brothers*/
+div ~p{
+    font-size: 2em;
+    color: red;
+}
+
+/*selector group or sth*/
+/*
+h3{
+    background-color: black;
+    color: blue;
+}
+
+h5{
+    background-color: black;
+    color: red;
+}
+*/
+.box,h3,h5{
+    padding: 5px;
+    background-color: chartreuse;
+    color: black;
+}

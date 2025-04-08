@@ -1,0 +1,45 @@
+/*pseudoclass*/
+
+p:hover {
+    color: greenyellow;
+    font-size: medium;
+    font-size: larger;
+}
+
+input:focus{
+    padding: 10px;
+    background-color: rgb(152, 173, 251);
+    font-size: larger;
+    color: aquamarine;
+}
+
+div{
+    width: 100%;
+    background-color: black;
+    color: red;
+}
+
+div p:nth-child(3){
+    font-style: italic;
+    font-weight: bold;
+    color: rebeccapurple;
+}
+
+p::first-letter{
+    color: palegreen;
+    font-size: larger;
+}
+p::first-line{
+    color: rgb(255, 0, 183);
+}
+p::before{
+    content:"🦅🦅🦅"
+}
+p::after{
+    content:"🏢🏢"
+}
+
+::placeholder{
+    color: orchid;
+    padding: 10px;
+}

@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+
+body header h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section h2{
+    font-style: normal;
+}
+
+
+
+
+section p {
+    align-items: center;
+}
+
+
+section div{
+    display: flex;
+    flex-direction: row;
+    justify-content: last baseline;
+    zoom: 50%; 
+}
+
+
+.footer{ 
+    position: fixed;     
+    text-align: center;    
+    bottom: 0px; 
+    width: 100%;
+    background-color: rgb(255, 206, 249);
+} 
+
+
+
+
+
+
+

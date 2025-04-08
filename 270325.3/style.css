@@ -1,0 +1,32 @@
+/*especifidad*/
+
+*{
+ background-color: rgba(0, 0, 255, 0.337);
+ color: black;
+}
+
+span{
+    color: teal;
+}
+
+.title{
+    background-color: blueviolet
+    color:greenyellow;
+    text-transform:uppercase;
+}
+
+header{
+    background-color: aquamarine;
+    width:fit-content;
+    padding: 10px;
+}
+header h1{
+    font-size: 3em;
+}
+header h1{
+    color: chartreuse;
+}
+
+span{
+    color: lavenderblush;
+}

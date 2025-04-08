@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+html{
+    font-family: monospace;
+    font-size: 18px;
+}
+
+header{
+    background-color: black;
+    color: chartreuse;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1, h2, h3{
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+section{
+    background-color: rgb(58, 57, 57);
+    padding: 10px;
+    color: darkgreen;
+}
